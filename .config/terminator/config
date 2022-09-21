@@ -1,0 +1,128 @@
+[global_config]
+  focus = mouse
+  borderless = True
+  tab_position = bottom
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#ffe240"
+  title_transmit_bg_color = "#152825"
+  title_receive_fg_color = "#f1f1c4"
+  title_receive_bg_color = "#2a81bb"
+  title_inactive_fg_color = "#4d7170"
+  title_inactive_bg_color = "#152825"
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = Terminus (TTF) Medium 12
+[keybindings]
+  zoom_in = <Primary><Shift>plus
+  zoom_out = <Primary><Shift>underscore
+  new_tab = <Primary>t
+  cycle_next = <Primary>Page_Up
+  go_next = None
+  go_prev = None
+  go_up = None
+  go_down = None
+  go_left = None
+  go_right = None
+  next_tab = <Primary>Tab
+  hide_window = None
+  broadcast_off = None
+  broadcast_group = None
+  broadcast_all = None
+  layout_launcher = None
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#0b1b24"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    foreground_color = "#c5f9f8"
+    scrollbar_position = hidden
+    scrollback_lines = 1000
+    scrollback_infinite = True
+    palette = "#152825:#de1c32:#4d7170:#c06034:#a4efff:#75507b:#00aaaa:#7c9f7e:#787f73:#360d0f:#6aa83f:#ffe240:#4b80b0:#ad7fa8:#9ad8c2:#faf6c9"
+    use_system_font = False
+  [[white]]
+    icon_bell = False
+    background_color = "#ffffdd"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    foreground_color = "#000000"
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[red]]
+    icon_bell = False
+    background_color = "#a40000"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    foreground_color = "#839496"
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+  [[another 2]]
+    icon_bell = False
+    background_color = "#a40000"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[purple]]
+    icon_bell = False
+    background_color = "#5c3566"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    foreground_color = "#ebdbb2"
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[anoterh]]
+    icon_bell = False
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[green]]
+    icon_bell = False
+    background_color = "#4e9a06"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    foreground_color = "#2e3436"
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[alt]]
+    icon_bell = False
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Terminus (TTF) Medium 11
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
