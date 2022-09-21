@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+killall nm-applet;
+killall pnmixer;
+killall conky;
+killall redshift-gtk;
+killall redshift;
+killall compton;
+killall picom;
+killall xfce4-power-manager;
+killall trayer;
+
+
+export XDG_CURRENT_DESKTOP=lxqt;
+
+
+nm-applet &
+pnmixer &
+#indicator-cpufreq &
+
+/home/aaron/_scripts/xrandr/triple-dp.sh &
+
+# /home/aaron/scripts/background.sh &
+
+/home/aaron/_scripts/launch/redshift.sh &
+
+/home/aaron/_scripts/launch/picom.sh &
+
+xsetroot -cursor_name left_ptr &
+
+sleep 1;
+
+/home/aaron/_scripts/launch/panel-bottom.sh &
+
+/home/aaron/_scripts/remap-remote.sh &
+
+
